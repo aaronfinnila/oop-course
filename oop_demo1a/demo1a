@@ -1,0 +1,24 @@
+                public class Esiintyja {
+                    private String nimi;
+                    private String tunniste;
+                    private String erityisala;
+                    private double palkkiosaldo;
+                }
+
+                public class Asiakas {
+                    private String nimi;
+                    private String tunniste;
+                }
+
+                public class Tilaisuus {
+                    private Asiakas asiakas;
+                    private Esiintyja esiintyja;
+                    private String tyyppi;
+                    private double palkkio;
+                }
+
+                public class Sovellus {
+                    private ArrayList<Asiakas> asiakkaat;
+                    private ArrayList<Esiintyja> esiintyjat;
+                    private ArrayList<Tilaisuus> tilaisuudet;
+                }
